@@ -1,0 +1,91 @@
+.topnav a{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+  }
+
+
+  * {
+  box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+  }
+  
+  
+  .topnav {
+  overflow: hidden;
+  background-color: #4CAF50;
+  }
+  
+
+  .topnav {
+  
+  display:flex;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0px;
+  text-decoration: none;
+  position: sticky;
+  justify-content: space-evenly;
+  top: 0; left: 0; right: 0;
+  align-items: center;
+  z-index: 1000;
+  margin:0px;
+  }
+
+  
+
+  .topnav a:hover {
+  background-color: #ddd;
+  color: #4CAF50;
+  }
+
+
+ 
+
+  body{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("https://cdn.shopify.com/s/files/1/1380/2059/articles/Feat_Image-1_1100x1100.jpg?v=1589273736");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+.heading{
+    text-align: center;
+    vertical-align: middle;
+    color: rgb(114, 196, 96);
+    font-size: 28px;
+    position: relative;
+    top: 150px;
+    border: 3px transparent;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.textp{
+    text-align: center;
+    vertical-align: middle;
+    font-style:italic;
+    font-size: 14px;
+    color:#efefef;
+    border: 3px transparent;
+    padding:200px;
+    margin: 100px;
+}

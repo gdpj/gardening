@@ -1,0 +1,122 @@
+.topnav a {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+  }
+
+
+  * {
+  box-sizing: border-box;
+  }
+  
+  body {
+  margin: 0;
+  }
+  
+  
+  .topnav {
+  overflow: hidden;
+  background-color: #4CAF50;
+  }
+  
+
+  .topnav {
+  
+  display:flex;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 13px;
+  text-decoration: none;
+  position: fixed;
+  justify-content: space-evenly;
+  top: 0; left: 0; right: 0;
+  align-items: center;
+  z-index: 1000;
+  
+  }
+
+  
+
+  .topnav a:hover {
+  background-color: #ddd;
+  color: #4CAF50;
+  }
+
+  header #toggler{
+  display: none;
+  }
+
+  header .fa-bars{
+  font-size: 3rem;
+  color:#333;
+  border-radius: .5rem;
+  padding: .5rem 1.5rem;
+  cursor: pointer;
+  }
+
+  body{
+    background-image: url("R.jpg") ;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    background-blend-mode: lighten;
+    position: relative;
+       
+}
+
+
+.header{
+  text-align: center;
+  font-size: 38px;
+  padding: 10px;
+  color: #006A4E;
+  }
+
+  .textp{
+    text-indent: 60px;
+    text-align: center;
+    vertical-align: middle;
+    font-style:italic;
+    font-size: 17px;
+    color:#006A4E;
+    padding: 25px;
+    margin: 50px;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+}
+
+table {
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+  font-style: italic;
+  font-size: 30px;
+  padding: 10px;
+}
+
+td{
+  font-size: 14px;
+  border: 5px solid #dddddd;
+  padding: 30px;
+
+}
+
+tr:nth-child(even) {
+  background-color: #5b5f59;
+}
+
+

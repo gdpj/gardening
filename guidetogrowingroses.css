@@ -1,0 +1,120 @@
+h1{
+  color: #1a521c;
+}
+h1{
+  text-align: center;
+}
+h1{
+  font-size: 3em;
+} 
+
+
+.topnav a {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: capitalize;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  
+}
+
+
+* {
+  box-sizing: border-box;
+  }
+
+
+  body {
+      margin: 0;
+      padding: 0px;
+      font-family:Georgia, 'Times New Roman', Times, serif
+    }
+    
+    
+    .topnav {
+    overflow: hidden;
+    background-color: #4CAF50;
+    }
+
+
+    .topnav {
+
+      display:flex;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 0px;
+      text-decoration: none;
+      position: sticky;
+      justify-content: space-evenly;
+      top: 0; left: 0; right: 0;
+      align-items: center;
+      z-index: 1000;
+      margin:0px;
+      }
+    
+      
+    
+      .topnav a:hover {
+      background-color: #ddd;
+      color: #4CAF50;
+      }
+    
+    
+    .head1 {
+      font: 1em sans-serif;
+      font-size: 24 px;
+  }
+      
+
+
+
+  html{
+background-color: #a3cfa4;
+  }
+
+  li{
+    list-style: none;
+    padding: 10px 30px;
+    background-image: url(https://cdn-icons-png.flaticon.com/128/7782/7782249.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 30px;
+  }
+
+
+  .htt1{
+    font-size: 2em;
+  }
+  .htt{
+    font-size: 1.5em;
+  }
+  .htt2{
+    font-size: 2em;
+  }
+  .htt3{
+    font-size: 2em;
+  }
+  .htt12{
+    font-size: 1.5em;
+  }
+
+
+  .lily1{
+    font-size: 1.5em;
+    margin: 40px 10px 40px 80px;
+}
+.lily2{
+    font-size: 1.5em;
+    margin: 40px 10px 40px 80px;
+}
+.lily3{
+    font-size: 1.5em;
+    margin: 40px 10px 40px 80px;  
+}
